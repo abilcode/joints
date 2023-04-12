@@ -9,21 +9,32 @@ from fun.no_family_residing import no_family_residing_cleaner as fam
 from fun.position import position_cleaner as pos
 from fun.land_surface import land_surface_condition_cleaner as land
 from fun.type_of_foundation import type_of_foundation_cleaner as fond
+from fun.type_of_roof import type_of_roof_cleaner as roof
+from fun.type_of_floor import type_of_other_floor_cleaner as other_floor
+from fun.type_of_ground import type_of_ground_floor_cleaner as ground 
 
 def processing(data):
     
-    data = floor(data,True)
-    data = plinth(data,True)
-    data = fam(data,False)
-    data = pos(data,True)
+    tmp = data.copy()
+    tmp = floor(tmp,False)
+    tmp = plinth(tmp,True)
+    tmp = fam(tmp,False)
+    tmp = pos(tmp,False)
+    tmp = land(tmp,False)
+    tmp = fond(tmp,False)
+    tmp = roof(tmp,False)
+    tmp = other_floor(tmp)
+    #tmp = ground(tmp,False)
+    return tmp
     
-    return data
-    
-
-
 if __name__ == "__main__":
     train = pd.read_csv("../data/train.csv")
-    train_t = train.copy()
-    train_t = processing(train_t)
+    train_t = processing(train)
+    test = pd.read_csv("../data/test.csv")
+    test_t = processing(test)
     print(train.isna().sum(),train_t.isna().sum())
+    train_t.to_csv("../data/preprocess/train_t1.csv")
+    test.to_csv("../data/preprocess/test1.csv")
+
+
     
