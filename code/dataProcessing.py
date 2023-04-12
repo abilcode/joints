@@ -13,11 +13,11 @@ from fun.type_of_roof import type_of_roof_cleaner as roof
 from fun.type_of_floor import type_of_other_floor_cleaner as other_floor
 from fun.type_of_ground import type_of_ground_floor_cleaner as ground 
 
-def processing(data):
+def preprocessing(data):
     
     tmp = data.copy()
     tmp = floor(tmp,False)
-    tmp = plinth(tmp,True)
+    tmp = plinth(tmp,False)
     tmp = fam(tmp,False)
     tmp = pos(tmp,False)
     tmp = land(tmp,False)
@@ -26,13 +26,18 @@ def processing(data):
     tmp = other_floor(tmp)
     #tmp = ground(tmp,False)
     return tmp
+
+def drop(data):
+    tmp = data.copy()
+    return tmp
+
     
 if __name__ == "__main__":
     train = pd.read_csv("../data/train.csv")
-    train_t = processing(train)
+    train_t = preprocessing(train)
     test = pd.read_csv("../data/test.csv")
-    test_t = processing(test)
-    print(train.isna().sum(),train_t.isna().sum())
+    test_t = preprocessing(test)
+    print(train.isna().sum(),train_t.isna().sum(),sep='\n'*3)
     train_t.to_csv("../data/preprocess/train_t1.csv")
     test.to_csv("../data/preprocess/test1.csv")
 

@@ -16,9 +16,9 @@ def type_of_ground_floor_cleaner(data,fillna):
     data['type_of_ground_floor'] = data['type_of_ground_floor'].fillna(mode)
 
   # Get the first value
-  data['type_of_ground_floor'] = data['type_of_ground_floor'].apply(lambda x: str(x).split()[0])
-  data['type_of_ground_floor'] = data['type_of_ground_floor'].apply(lambda x: str(x).split('/')[0])
-  data['type_of_ground_floor'] = data['type_of_ground_floor'].apply(lambda x: str(x).split('-')[0])
+  data['type_of_ground_floor'] = data['type_of_ground_floor'].apply(lambda x: x.split()[0] if type(x) == str else x)
+  data['type_of_ground_floor'] = data['type_of_ground_floor'].apply(lambda x: x.split('/')[0] if type(x) == str else x)
+  data['type_of_ground_floor'] = data['type_of_ground_floor'].apply(lambda x: x.split('-')[0] if type(x) == str else x)
 
   # Return data
   return data
