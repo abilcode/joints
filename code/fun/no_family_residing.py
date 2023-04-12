@@ -4,9 +4,10 @@ import re
 
 
 
-def no_family_residing_cleaner(data):
-  # Replace NaN with None
-  data['no_family_residing'] = data['no_family_residing'].fillna('None')
+def no_family_residing_cleaner(data,fillna):
+  if fillna:
+    # Replace NaN with None
+    data['no_family_residing'] = data['no_family_residing'].fillna('None')
 
   # Change None into '0'
   data['no_family_residing'] = data['no_family_residing'].replace({'None':'0'})

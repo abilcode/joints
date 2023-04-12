@@ -4,7 +4,7 @@ import re
 
 
 def floors_before_eq_cleaner(data,fillna=False):
-  # Lower all text
+  #Lower all text
   data['floors_before_eq (total)'] = data['floors_before_eq (total)'].str.lower()
   # Make dictionary
   dict_num = {'one': '1',
