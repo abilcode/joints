@@ -1,0 +1,306 @@
+floors_before_eq (total) with dtypes of object
+45
+['2' '3.00' 'Floor-three' 'floor second' ' just 2 floor' 'Two Floor'
+ ' has 3 Floor' 'There is 2 Floor/Story' 'two' 'Floor two' '2 floor'
+ 'Floor 1' 'three Story' 'two story' 'floor 1st' 'Floor 2' 'one story'
+ 'Three' 'floor one' 'five Floor' 'floor third' 'floor two' 'Floor 3' '1'
+ 'one' 'Three floor' 'Has 1 floor' 'Just 1 floor' '1st Story' 'Floor 4'
+ 'Four Story' 'Fl Five' ' has Four fl' '5' 'four Floor' 'Four' '6' '4'
+ 'floor four' ' Has Five fl' 'fifth' 'Fl four' 'Floor Fifth' '7' '9']
+There are : 0.0  missing value
+================================================================================
+old_building with dtypes of int64
+144
+[  7  13  40  25   5   6  10  17  31  18  44   2  15  16  12  30   3 999
+  21   4  11   9  22  35  23  20  27   1   8  14  47  34  42  50 100  19
+  32  33  64  28  60  45   0  29  70  26  38  41  39  54  24  37  80  43
+  36  56  58  55  62 200  76  68  51  48  78  99  46  82  90  65 110 140
+  52  75  63  57  85  83  81  61  53 114  71  95  72 102  94  69  74  73
+  49 120 123  66  59 150 125  86  67 103  79 115  84  77 112 105 116  92
+  88 122 130 104  96 109  89  97 111  87 107  98  91 148 160 180 113 108
+ 156 141 155 133 170 118 135 175 172 178 152 190 101 151 149  93 117 195]
+There are : 0.0  missing value
+================================================================================
+plinth_area (ft^2) with dtypes of object
+928
+['418 ft^2' '396 ft^2' '400 ft^2' '378 ft^2' '375 ft^2' '534 ft^2'
+ '416 ft^2' '558 ft^2' '255 ft^2' '300 ft^2' '216 ft^2' '342 ft^2'
+ '457 ft^2' '350 ft^2' '240 ft^2' '310 ft^2' '450 ft^2' '672 ft^2'
+ '260 ft^2' '308 ft^2' 'More than 1000 ft^2' '270 ft^2' '162 ft^2'
+ '150 ft^2' '891 ft^2' '648 ft^2' '180 ft^2' '420 ft^2' '200 ft^2'
+ '275 ft^2' '392 ft^2' '695 ft^2' '315 ft^2' '900 ft^2' '720 ft^2'
+ '430 ft^2' '228 ft^2' '500 ft^2' '476 ft^2' '176 ft^2' '261 ft^2'
+ '330 ft^2' '540 ft^2' '590 ft^2' '155 ft^2' '313 ft^2' '225 ft^2'
+ '547 ft^2' '530 ft^2' '360 ft^2' '169 ft^2' '252 ft^2' '301 ft^2'
+ '286 ft^2' '550 ft^2' '190 ft^2' '932 ft^2' '485 ft^2' '600 ft^2'
+ '299 ft^2' '410 ft^2' '441 ft^2' '445 ft^2' '280 ft^2' '395 ft^2'
+ '759 ft^2' '273 ft^2' '250 ft^2' '501 ft^2' '220 ft^2' '652 ft^2'
+ '364 ft^2' '864 ft^2' '425 ft^2' '494 ft^2' '243 ft^2' '665 ft^2'
+ '598 ft^2' '650 ft^2' '153 ft^2' '197 ft^2' '470 ft^2' '78 ft^2'
+ '145 ft^2' '265 ft^2' '519 ft^2' '405 ft^2' '305 ft^2' '239 ft^2'
+ '384 ft^2' '513 ft^2' '440 ft^2' '338 ft^2' '340 ft^2' '432 ft^2'
+ '750 ft^2' '422 ft^2' '276 ft^2' '589 ft^2' '130 ft^2' '264 ft^2'
+ '700 ft^2' '560 ft^2' '966 ft^2' '660 ft^2' '312 ft^2' '380 ft^2'
+ '502 ft^2' '836 ft^2' '258 ft^2' '754 ft^2' '336 ft^2' '204 ft^2'
+ '345 ft^2' '390 ft^2' '434 ft^2' '326 ft^2' '343 ft^2' '480 ft^2'
+ '285 ft^2' '685 ft^2' '115 ft^2' '391 ft^2' '320 ft^2' '437 ft^2'
+ '290 ft^2' '640 ft^2' '486 ft^2' '324 ft^2' '230 ft^2' '325 ft^2'
+ '268 ft^2' '192 ft^2' '462 ft^2' '298 ft^2' '625 ft^2' '806 ft^2'
+ '349 ft^2' '226 ft^2' '263 ft^2' '304 ft^2' '775 ft^2' '576 ft^2'
+ '238 ft^2' '800 ft^2' '371 ft^2' '475 ft^2' '402 ft^2' '411 ft^2'
+ '123 ft^2' '372 ft^2' '820 ft^2' '676 ft^2' '696 ft^2' '504 ft^2'
+ '406 ft^2' '925 ft^2' '570 ft^2' '202 ft^2' '423 ft^2' '612 ft^2'
+ '839 ft^2' '303 ft^2' '484 ft^2' '253 ft^2' '246 ft^2' '460 ft^2'
+ '415 ft^2' '100 ft^2' '365 ft^2' '610 ft^2' '398 ft^2' '725 ft^2'
+ '442 ft^2' '651 ft^2' '527 ft^2' '248 ft^2' '382 ft^2' '208 ft^2'
+ '459 ft^2' '143 ft^2' '581 ft^2' '798 ft^2' '408 ft^2' '376 ft^2'
+ '288 ft^2' '210 ft^2' '185 ft^2' '196 ft^2' '214 ft^2' '544 ft^2'
+ '912 ft^2' '354 ft^2' '446 ft^2' '160 ft^2' '654 ft^2' '510 ft^2'
+ '850 ft^2' '526 ft^2' '346 ft^2' '448 ft^2' '394 ft^2' '245 ft^2'
+ '703 ft^2' '525 ft^2' '111 ft^2' '592 ft^2' '575 ft^2' '272 ft^2'
+ '170 ft^2' '370 ft^2' '321 ft^2' '428 ft^2' '368 ft^2' '198 ft^2'
+ '722 ft^2' '630 ft^2' '283 ft^2' '704 ft^2' '223 ft^2' '616 ft^2'
+ '493 ft^2' '352 ft^2' '903 ft^2' '458 ft^2' '351 ft^2' '166 ft^2'
+ '454 ft^2' '680 ft^2' '978 ft^2' '98 ft^2' '537 ft^2' '551 ft^2'
+ '741 ft^2' '580 ft^2' '247 ft^2' '412 ft^2' '295 ft^2' '684 ft^2'
+ '302 ft^2' '385 ft^2' '234 ft^2' '675 ft^2' '140 ft^2' '294 ft^2'
+ '377 ft^2' '141 ft^2' '536 ft^2' '635 ft^2' '520 ft^2' '535 ft^2'
+ '505 ft^2' '960 ft^2' '739 ft^2' '344 ft^2' '451 ft^2' '512 ft^2'
+ '980 ft^2' '205 ft^2' '296 ft^2' '209 ft^2' '366 ft^2' '357 ft^2'
+ '521 ft^2' '348 ft^2' '531 ft^2' '1000 ft^2' '175 ft^2' '203 ft^2'
+ '522 ft^2' '136 ft^2' '329 ft^2' '682 ft^2' '274 ft^2' '221 ft^2'
+ '306 ft^2' '620 ft^2' '388 ft^2' '888 ft^2' '284 ft^2' '414 ft^2'
+ '468 ft^2' '374 ft^2' '404 ft^2' '737 ft^2' '464 ft^2' '110 ft^2'
+ '756 ft^2' '322 ft^2' '786 ft^2' '269 ft^2' '515 ft^2' '211 ft^2'
+ '426 ft^2' '455 ft^2' '714 ft^2' '254 ft^2' '80 ft^2' '323 ft^2'
+ '222 ft^2' '495 ft^2' '594 ft^2' '241 ft^2' '496 ft^2' '857 ft^2'
+ '90 ft^2' '443 ft^2' '709 ft^2' '546 ft^2' '333 ft^2' '215 ft^2'
+ '444 ft^2' '282 ft^2' '421 ft^2' '474 ft^2' '713 ft^2' '490 ft^2'
+ '267 ft^2' '362 ft^2' '289 ft^2' '636 ft^2' '419 ft^2' '201 ft^2'
+ '561 ft^2' '770 ft^2' '856 ft^2' '142 ft^2' '399 ft^2' '624 ft^2'
+ '565 ft^2' '409 ft^2' '545 ft^2' '165 ft^2' '287 ft^2' '950 ft^2'
+ '435 ft^2' '465 ft^2' '529 ft^2' '195 ft^2' '752 ft^2' '608 ft^2'
+ '174 ft^2' '361 ft^2' '702 ft^2' '355 ft^2' '828 ft^2' '337 ft^2'
+ '586 ft^2' '483 ft^2' '940 ft^2' '688 ft^2' '81 ft^2' '127 ft^2'
+ '158 ft^2' '429 ft^2' '413 ft^2' '693 ft^2' '896 ft^2' '572 ft^2'
+ '307 ft^2' '244 ft^2' '314 ft^2' '316 ft^2' '181 ft^2' '882 ft^2'
+ '567 ft^2' '653 ft^2' '120 ft^2' '256 ft^2' '309 ft^2' '318 ft^2'
+ '968 ft^2' '910 ft^2' '477 ft^2' '224 ft^2' '492 ft^2' '568 ft^2'
+ '259 ft^2' '735 ft^2' '154 ft^2' '242 ft^2' '207 ft^2' '667 ft^2'
+ '393 ft^2' '135 ft^2' '868 ft^2' '75 ft^2' '658 ft^2' '508 ft^2'
+ '347 ft^2' '542 ft^2' '578 ft^2' '173 ft^2' '389 ft^2' '532 ft^2'
+ '96 ft^2' '729 ft^2' '156 ft^2' '292 ft^2' '383 ft^2' '163 ft^2'
+ '518 ft^2' '880 ft^2' '403 ft^2' '554 ft^2' '548 ft^2' '381 ft^2'
+ '588 ft^2' '810 ft^2' '427 ft^2' '456 ft^2' '890 ft^2' '367 ft^2'
+ '262 ft^2' '358 ft^2' '990 ft^2' '453 ft^2' '760 ft^2' '609 ft^2'
+ '860 ft^2' '356 ft^2' '585 ft^2' '556 ft^2' '690 ft^2' '711 ft^2'
+ '516 ft^2' '855 ft^2' '235 ft^2' '187 ft^2' '712 ft^2' '999 ft^2'
+ '472 ft^2' '744 ft^2' '902 ft^2' '765 ft^2' '95 ft^2' '479 ft^2'
+ '125 ft^2' '293 ft^2' '386 ft^2' '948 ft^2' '851 ft^2' '721 ft^2'
+ '281 ft^2' '482 ft^2' '784 ft^2' '992 ft^2' '233 ft^2' '452 ft^2'
+ '236 ft^2' '99 ft^2' '227 ft^2' '924 ft^2' '666 ft^2' '471 ft^2'
+ '105 ft^2' '379 ft^2' '552 ft^2' '328 ft^2' '72 ft^2' '149 ft^2'
+ '686 ft^2' '807 ft^2' '920 ft^2' '297 ft^2' '596 ft^2' '549 ft^2'
+ '191 ft^2' '317 ft^2' '353 ft^2' '266 ft^2' '431 ft^2' '595 ft^2'
+ '212 ft^2' '619 ft^2' '538 ft^2' '528 ft^2' '524 ft^2' '644 ft^2'
+ '189 ft^2' '767 ft^2' '467 ft^2' '569 ft^2' '334 ft^2' '603 ft^2'
+ '319 ft^2' '291 ft^2' '184 ft^2' '634 ft^2' '591 ft^2' '232 ft^2'
+ '186 ft^2' '825 ft^2' '563 ft^2' '218 ft^2' '517 ft^2' '794 ft^2'
+ '854 ft^2' '780 ft^2' '438 ft^2' '341 ft^2' '840 ft^2' '159 ft^2'
+ '972 ft^2' '663 ft^2' '433 ft^2' '237 ft^2' '473 ft^2' '555 ft^2'
+ '397 ft^2' '875 ft^2' '833 ft^2' '938 ft^2' '193 ft^2' '489 ft^2'
+ '373 ft^2' '167 ft^2' '231 ft^2' '182 ft^2' '957 ft^2' '845 ft^2'
+ '332 ft^2' '335 ft^2' '144 ft^2' '487 ft^2' '506 ft^2' '872 ft^2'
+ '509 ft^2' '557 ft^2' '724 ft^2' '730 ft^2' '643 ft^2' '577 ft^2'
+ '571 ft^2' '710 ft^2' '745 ft^2' '498 ft^2' '116 ft^2' '814 ft^2'
+ '213 ft^2' '629 ft^2' '708 ft^2' '777 ft^2' '171 ft^2' '627 ft^2'
+ '893 ft^2' '194 ft^2' '327 ft^2' '837 ft^2' '706 ft^2' '637 ft^2'
+ '161 ft^2' '790 ft^2' '503 ft^2' '114 ft^2' '117 ft^2' '728 ft^2'
+ '363 ft^2' '178 ft^2' '892 ft^2' '865 ft^2' '615 ft^2' '736 ft^2'
+ '587 ft^2' '407 ft^2' '573 ft^2' '86 ft^2' '543 ft^2' '621 ft^2'
+ '657 ft^2' '447 ft^2' '923 ft^2' '618 ft^2' '605 ft^2' '168 ft^2'
+ '553 ft^2' '731 ft^2' '689 ft^2' '670 ft^2' '795 ft^2' '726 ft^2'
+ '645 ft^2' '646 ft^2' '106 ft^2' '122 ft^2' '859 ft^2' '772 ft^2'
+ '622 ft^2' '523 ft^2' '943 ft^2' '638 ft^2' '369 ft^2' '870 ft^2'
+ '742 ft^2' '514 ft^2' '70 ft^2' '641 ft^2' '138 ft^2' '436 ft^2'
+ '602 ft^2' '970 ft^2' '339 ft^2' '858 ft^2' '118 ft^2' '152 ft^2'
+ '841 ft^2' '639 ft^2' '279 ft^2' '816 ft^2' '219 ft^2' '886 ft^2'
+ '488 ft^2' '507 ft^2' '607 ft^2' '962 ft^2' '132 ft^2' '768 ft^2'
+ '697 ft^2' '662 ft^2' '740 ft^2' '478 ft^2' '157 ft^2' '533 ft^2'
+ '331 ft^2' '84 ft^2' '566 ft^2' '655 ft^2' '801 ft^2' '497 ft^2'
+ '559 ft^2' '387 ft^2' '481 ft^2' '424 ft^2' '804 ft^2' '401 ft^2'
+ '271 ft^2' '884 ft^2' '959 ft^2' '691 ft^2' '541 ft^2' '604 ft^2'
+ '908 ft^2' '146 ft^2' '112 ft^2' '206 ft^2' '108 ft^2' '574 ft^2'
+ '614 ft^2' '188 ft^2' '716 ft^2' '743 ft^2' '979 ft^2' '311 ft^2'
+ '753 ft^2' '277 ft^2' '278 ft^2' '946 ft^2' '623 ft^2' '677 ft^2'
+ '124 ft^2' '885 ft^2' '945 ft^2' '788 ft^2' '815 ft^2' '674 ft^2'
+ '747 ft^2' '562 ft^2' '613 ft^2' '128 ft^2' '894 ft^2' '131 ft^2'
+ '611 ft^2' '842 ft^2' '818 ft^2' '812 ft^2' '817 ft^2' '774 ft^2'
+ '822 ft^2' '632 ft^2' '832 ft^2' '539 ft^2' '147 ft^2' '172 ft^2'
+ '758 ft^2' '417 ft^2' '792 ft^2' '827 ft^2' '151 ft^2' '830 ft^2'
+ '879 ft^2' '88 ft^2' '217 ft^2' '617 ft^2' '359 ft^2' '785 ft^2'
+ '94 ft^2' '715 ft^2' '935 ft^2' '761 ft^2' '249 ft^2' '564 ft^2'
+ '469 ft^2' '199 ft^2' '734 ft^2' '121 ft^2' '148 ft^2' '647 ft^2'
+ '985 ft^2' '439 ft^2' '793 ft^2' '466 ft^2' '177 ft^2' '683 ft^2'
+ '584 ft^2' '852 ft^2' '133 ft^2' '626 ft^2' '699 ft^2' '918 ft^2'
+ '769 ft^2' '126 ft^2' '936 ft^2' '911 ft^2' '963 ft^2' '671 ft^2'
+ '796 ft^2' '701 ft^2' '861 ft^2' '707 ft^2' '821 ft^2' '499 ft^2'
+ '915 ft^2' '782 ft^2' '779 ft^2' '257 ft^2' '993 ft^2' '642 ft^2'
+ '738 ft^2' '778 ft^2' '838 ft^2' '846 ft^2' '79 ft^2' '878 ft^2'
+ '899 ft^2' '981 ft^2' '107 ft^2' '104 ft^2' '668 ft^2' '251 ft^2'
+ '983 ft^2' '771 ft^2' '692 ft^2' '930 ft^2' '783 ft^2' '179 ft^2'
+ '748 ft^2' '129 ft^2' '659 ft^2' '669 ft^2' '898 ft^2' '511 ft^2'
+ '803 ft^2' '809 ft^2' '102 ft^2' '805 ft^2' '835 ft^2' '823 ft^2'
+ '889 ft^2' '732 ft^2' '597 ft^2' '763 ft^2' '949 ft^2' '91 ft^2'
+ '723 ft^2' '463 ft^2' '988 ft^2' '931 ft^2' '694 ft^2' '901 ft^2'
+ '913 ft^2' '679 ft^2' '989 ft^2' '92 ft^2' '914 ft^2' '628 ft^2'
+ '749 ft^2' '987 ft^2' '601 ft^2' '844 ft^2' '843 ft^2' '579 ft^2'
+ '718 ft^2' '808 ft^2' '952 ft^2' '77 ft^2' '877 ft^2' '975 ft^2'
+ '727 ft^2' '764 ft^2' '164 ft^2' '582 ft^2' '965 ft^2' '134 ft^2'
+ '599 ft^2' '961 ft^2' '85 ft^2' '819 ft^2' '109 ft^2' '687 ft^2'
+ '661 ft^2' '491 ft^2' '947 ft^2' '871 ft^2' '883 ft^2' '664 ft^2'
+ '956 ft^2' '593 ft^2' '874 ft^2' '461 ft^2' '998 ft^2' '633 ft^2'
+ '183 ft^2' '755 ft^2' '449 ft^2' '862 ft^2' '606 ft^2' '876 ft^2'
+ '766 ft^2' '656 ft^2' '928 ft^2' '678 ft^2' '904 ft^2' '922 ft^2'
+ '583 ft^2' '698 ft^2' '905 ft^2' '848 ft^2' '866 ft^2' '751 ft^2'
+ '773 ft^2' '789 ft^2' '994 ft^2' '969 ft^2' '797 ft^2' '954 ft^2'
+ '897 ft^2' '974 ft^2' '791 ft^2' '229 ft^2' '909 ft^2' '73 ft^2'
+ '926 ft^2' '71 ft^2' '137 ft^2' '113 ft^2' '705 ft^2' '863 ft^2'
+ '967 ft^2' '867 ft^2' '906 ft^2' '986 ft^2' '907 ft^2' '802 ft^2'
+ '955 ft^2' '921 ft^2' '824 ft^2' '673 ft^2' '996 ft^2' '776 ft^2'
+ '787 ft^2' '916 ft^2' '977 ft^2' '984 ft^2' '762 ft^2' '995 ft^2'
+ '139 ft^2' '982 ft^2' '944 ft^2' '951 ft^2' '941 ft^2' '976 ft^2'
+ '811 ft^2' '719 ft^2' '82 ft^2' '831 ft^2' '853 ft^2' '881 ft^2'
+ '826 ft^2' '813 ft^2' '847 ft^2' '119 ft^2' '746 ft^2' '973 ft^2'
+ '953 ft^2' '681 ft^2' '937 ft^2' '649 ft^2' '781 ft^2' '942 ft^2'
+ '799 ft^2' '917 ft^2' '895 ft^2' '829 ft^2' '74 ft^2' '939 ft^2'
+ '103 ft^2' '997 ft^2' '733 ft^2' '964 ft^2' '631 ft^2' '991 ft^2'
+ '887 ft^2' '834 ft^2' '717 ft^2' '927 ft^2' '958 ft^2' '89 ft^2'
+ '869 ft^2' '93 ft^2' '97 ft^2' '933 ft^2' '87 ft^2' '929 ft^2' '873 ft^2'
+ '919 ft^2' '757 ft^2' '101 ft^2' '849 ft^2']
+There are : 0.0  missing value
+================================================================================
+height_before_eq (ft) with dtypes of int64
+71
+[14 21 18 20 15 16 22 12 17 10 30  9 26  8  6 24 19 45 42 23 25 13 27  7
+ 11 34 40 36 60 48 28 35 31 32 54 50 29 38 33 58 46 37 57 39 63 99 97 44
+ 56 47 95 52 76 67 70 78 41 55 75 59 66 71 96 43 51 65 85 72 74 49 77]
+There are : 0.0  missing value
+================================================================================
+land_surface_condition with dtypes of object
+3
+['Flat' 'Moderate slope' 'Steep slope']
+There are : 0.0  missing value
+================================================================================
+type_of_foundation with dtypes of object
+12
+['Clay mortar-Stone/Brick' 'Bamboo or Timber' 'Mud mortar-Stone/Brick'
+ 'Clay Sand Mixed mortar-Stone/Brick' 'Bamboo/TImber' 'RC'
+ 'Cement-Stone or Cement-Brick' 'Reinforced Concrete' 'Cement-Stone/Brick'
+ 'Bamboo/Timber' 'Other' 'Others']
+There are : 0.0  missing value
+================================================================================
+type_of_roof with dtypes of object
+12
+['Bamboo/TImber-Light Roof' 'Bamboo/TImber-Heavy Roof'
+ 'Bamboo/Timber Light roof' 'Bamboo/Timber Heavy roof'
+ 'Wood Light Roof or Bamboo Light Roof'
+ 'Wood Light Roof or Bamboo Heavy Roof' 'Bamboo or Timber Light roof'
+ 'reinforced cement concrete/rb/rbc' 'Reinforced Brick Slab/rcc/rbc'
+ 'rcc/rb/rbc' 'Bamboo or Timber Heavy roof'
+ 'Reinforced brick concrete/rcc/rbc']
+There are : 0.0  missing value
+================================================================================
+type_of_ground_floor with dtypes of object
+15
+['Clay' 'Brick or Stone' 'mud' 'RC' 'Mud' 'reinforced concrete'
+ 'Brick/Stone' 'Reinforced Concrete' 'soil, water, loam Mixed' 'Other'
+ 'Lumber' 'brick/stone' 'TImber' 'Wood' 'Timber']
+There are : 0.0  missing value
+================================================================================
+type_of_other_floor with dtypes of object
+11
+['TImber/Bamboo-Mud' 'Wood or Bamboo Mud' 'Wood-Mud or Bamboo Mud'
+ 'Timber Mud or Bamboo-Mud' 'Timber-Planck' 'Lumber-plank'
+ 'Not applicable' 'rcc/rb/rbc' 'Reinforced brick concrete/rcc/rbc'
+ 'Wood-Plank' 'reinforced cement concrete/rb/rbc']
+There are : 0.0  missing value
+================================================================================
+position with dtypes of object
+4
+['Not attached' 'Attached-2 side' 'Attached-1 side' 'Attached-3 side']
+There are : 0.0  missing value
+================================================================================
+building_plan_configuration with dtypes of object
+10
+['Rectangular' 'L-shape' 'T-shape' 'Square' 'Multi-projected' 'Others'
+ 'U-shape' 'E-shape' 'Building with Central Courtyard' 'H-shape']
+There are : 0.0  missing value
+================================================================================
+technical_solution_proposed with dtypes of object
+4
+['Reconstruction' 'Minor repair' 'No need' 'Major repair']
+There are : 0.0  missing value
+================================================================================
+legal_ownership_status with dtypes of object
+13
+['Private' 'Institutional Use' 'Privste' 'Private Use' 'Prvt' 'Public Use'
+ 'Public' 'Other' 'Public Space' 'Institutionals' 'Unspecified'
+ 'Institutional' 'Unknown']
+There are : 0.0  missing value
+================================================================================
+has_secondary_use with dtypes of float64
+2
+[0. 1.]
+There are : 0.0  missing value
+================================================================================
+type_of_reinforcement_concrete with dtypes of int64
+4
+[0 1 2 3]
+There are : 0.0  missing value
+================================================================================
+residential_type with dtypes of object
+6
+['Non-residential' 'Hotel/Motel' 'Housing' 'Rental Residential' 'Other'
+ 'Other Residential Type']
+There are : 0.0  missing value
+================================================================================
+no_family_residing with dtypes of object
+10
+['1.0' '3.0' 'None' '2.0' '4.0' '5.0' '6.0' '7.0' '8.0' '9.0']
+There are : 0.0  missing value
+================================================================================
+public_place_type with dtypes of object
+13
+['Non-public' 'High School' 'Middle School' 'Other Institutional Building'
+ 'Hospital' 'Shopping Sites' 'Drugstore' 'Religious Sites'
+ 'Primary School' 'Health Clinics' 'Museum' 'University'
+ 'Recreational Park']
+There are : 0.0  missing value
+================================================================================
+industrial_use_type with dtypes of object
+9
+['Non-industrial' 'Food' 'Infrastructure' 'Service/Tourism'
+ 'Manufacturing' 'Metallurgy' 'Forest-based' 'Farm' 'Agro']
+There are : 0.0  missing value
+================================================================================
+govermental_use_type with dtypes of object
+3
+['Non-govermental' 'Police Offices' 'Govermental Buildings']
+There are : 0.0  missing value
+================================================================================
+flexible_superstructure with dtypes of object
+2
+['unavailable' 'available']
+There are : 0.0  missing value
+================================================================================
+wall_binding with dtypes of int64
+6
+[5 0 2 1 7 3]
+There are : 0.0  missing value
+================================================================================
+wall_material with dtypes of int64
+4
+[2 0 1 3]
+There are : 0.0  missing value
+================================================================================
