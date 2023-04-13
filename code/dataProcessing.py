@@ -17,15 +17,15 @@ from fun.type_of_ground import type_of_ground_floor_cleaner as ground
 def preprocessing(data):
     
     tmp = data.copy()
-    tmp = floor(tmp,False)
-    tmp = plinth(tmp,False)
-    tmp = fam(tmp,False)
-    tmp = pos(tmp,False)
-    tmp = land(tmp,False)
-    tmp = fond(tmp,False)
-    tmp = roof(tmp,False)
+    tmp = floor(tmp,True)
+    tmp = plinth(tmp,True)
+    tmp = fam(tmp,True)
+    tmp = pos(tmp,True)
+    tmp = land(tmp,True)
+    tmp = fond(tmp,True)
+    tmp = roof(tmp,True)
     tmp = other_floor(tmp)
-    tmp = ground(tmp,False)
+    tmp = ground(tmp,True)
     return tmp
 
 def drop(data):
@@ -38,5 +38,5 @@ if __name__ == "__main__":
     test = pd.read_csv("../data/test.csv")
     test_t = preprocessing(test)
     print(train.isna().sum(),train_t.isna().sum(),sep='\n'*3)
-    train_t.to_csv("../data/preprocess/train_t1.csv")
-    test.to_csv("../data/preprocess/test1.csv")
+    train_t.to_csv("../data/preprocess/train_fill_1.csv")
+    test.to_csv("../data/preprocess/test_fill_1.csv")
