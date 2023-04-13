@@ -1,3 +1,4 @@
+
 import numpy as np
 import pandas as pd
 
@@ -24,14 +25,13 @@ def preprocessing(data):
     tmp = fond(tmp,False)
     tmp = roof(tmp,False)
     tmp = other_floor(tmp)
-    #tmp = ground(tmp,False)
+    tmp = ground(tmp,False)
     return tmp
 
 def drop(data):
     tmp = data.copy()
     return tmp
 
-    
 if __name__ == "__main__":
     train = pd.read_csv("../data/train.csv")
     train_t = preprocessing(train)
@@ -40,6 +40,3 @@ if __name__ == "__main__":
     print(train.isna().sum(),train_t.isna().sum(),sep='\n'*3)
     train_t.to_csv("../data/preprocess/train_t1.csv")
     test.to_csv("../data/preprocess/test1.csv")
-
-
-    
