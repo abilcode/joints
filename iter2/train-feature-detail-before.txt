@@ -157,9 +157,9 @@ technical_solution_proposed with dtypes of object
 There are : 0.9352517587487809  missing value
 ================================================================================
 legal_ownership_status with dtypes of object
-13
-['Private Use' 'Private' nan 'Prvt' 'Public Space' 'Privste' 'Public'
- 'Unknown' 'Public Use' 'Institutionals' 'Unspecified' 'Institutional Use'
+6
+['Private' nan  'Public'
+ 'Unknown' 'Institutionals' 
  'Other' 'Institutional']
 There are : 0.17266105435000656  missing value
 ================================================================================

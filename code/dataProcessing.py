@@ -13,6 +13,7 @@ from fun.type_of_foundation import type_of_foundation_cleaner as fond
 from fun.type_of_roof import type_of_roof_cleaner as roof
 from fun.type_of_floor import type_of_other_floor_cleaner as other_floor
 from fun.type_of_ground import type_of_ground_floor_cleaner as ground 
+from fun.legal_ownership import legal_ownership_status_cleaner as legal
 
 def preprocessing(data):
     
@@ -25,6 +26,7 @@ def preprocessing(data):
     tmp = fond(tmp,False)
     tmp = roof(tmp,False)
     tmp = other_floor(tmp,False)
+    tmp = legal(tmp,False)
     tmp = ground(tmp,False)
     return tmp
 

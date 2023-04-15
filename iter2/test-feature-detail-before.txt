@@ -152,9 +152,9 @@ There are : 0.0  missing value
 ================================================================================
 legal_ownership_status with dtypes of object
 13
-['Private' 'Institutional Use' 'Privste' 'Private Use' 'Prvt' 'Public Use'
- 'Public' 'Other' 'Public Space' 'Institutionals' 'Unspecified'
- 'Institutional' 'Unknown']
+['Private' nan  'Public'
+ 'Unknown' 'Institutionals' 
+ 'Other' 'Institutional']
 There are : 0.0  missing value
 ================================================================================
 has_secondary_use with dtypes of float64
