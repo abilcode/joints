@@ -1,9 +1,12 @@
 from sklearn.model_selection import StratifiedKFold, KFold
-from sklearn.metrics import f1_score
+from sklearn.metrics import f1_score, classification_report
+   
 import pandas as pd 
 
 def cross_validation(X,y,model):
+    
     f1 = []
+    conv = []
     skf = StratifiedKFold(n_splits=5, shuffle=True, random_state=42)
     for train_index, test_index in skf.split(X, y):
         X_train, X_test = X.iloc[train_index], X.iloc[test_index]
@@ -11,5 +14,10 @@ def cross_validation(X,y,model):
         model.fit(X_train, y_train)
         y_pred = model.predict(X_test)
         f1_macro = f1_score(y_test, y_pred, average = 'macro')
+       
         f1.append(f1_macro)
-    return f1
+        #conv.append(confusion_matrix(y_test, y_pred))
+        print(f'here is the : {f1_macro}')
+        #print(classification_report(y_test, y_pred))
+        print("==="*20)
+    return f1, conv
